@@ -25,38 +25,6 @@ body {
 }
 
 .container {
-  /* background-color: #777; */
-  /* background-image: linear-gradient(
-    to left,
-    #12c2e9,
-    #00baf7,
-    #20afff,
-    #5ba1ff,
-    #8a90ff,
-    #ae81f4,
-    #cc70e2,
-    #e55dcb,
-    #f450af,
-    #fb4991,
-    #fc4975,
-    #f64f59
-  ); */
-  /* background-image: #ff0000;
-  background-image: #010304;
-  background-image: #010304; */
-  /* background-image: radial-gradient(
-      at 86% 0%,
-      hsla(359, 76%, 63%, 1) 0,
-      transparent 47%
-    ),
-    radial-gradient(at 55% 47%, hsla(43, 0%, 0%, 1) 0, transparent 0%),
-    radial-gradient(at 4% 3%, hsla(303, 78%, 62%, 1) 0, transparent 81%),
-    radial-gradient(at 100% 55%, hsla(192, 31%, 52%, 1) 0, transparent 69%),
-    radial-gradient(at 52% 1%, hsla(43, 0%, 42%, 1) 0, transparent 59%),
-    radial-gradient(at 89% 94%, hsla(211, 64%, 62%, 1) 0, transparent 100%),
-    radial-gradient(at 93% 8%, hsla(285, 98%, 40%, 1) 0, transparent 0%),
-    radial-gradient(at 54% 19%, hsla(259, 91%, 64%, 1) 0, transparent 0%); */
-
   /* * Centrado del contenido */
   /* width: 100vw; */
   /* height: 100vh; */
@@ -180,21 +148,12 @@ h2 {
 /* todo ************ DESAFIO #2 ************ */
 .container-desafio2 {
   display: flex;
-  /* justify-content: center; */
-  /* align-items: center;
-  min-height: 100vh;
-  background-color: #d1d1d1;
-  padding: 40px;
-  background: linear-gradient(115deg, #56d8e4 10%, #9f01ea 90%); */
-  /* font-family: 'Poppins', sans-serif; */
 }
 
 .container-form {
-  /* background-color: #fff; */
   width: 800px;
   max-width: 800px;
   padding: 25px 40px 10px 40px;
-  /* box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); */
 }
 
 .container .text {
@@ -217,14 +176,6 @@ h2 {
     #ee4f58,
     #ff0022
   );
-
-  /* background: -webkit-linear-gradient(
-    right,
-    #56d8e4,
-    #9f01ea,
-    #56d8e4,
-    #9f01ea
-  ); */
 
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -266,21 +217,6 @@ form .form-row .textArea {
   font-size: 17px;
   border-bottom: 2px solid rgba(0, 0, 0, 0.12);
 }
-
-/* .input-data label { */
-/* font-size: 20px;
-  display: inline-block;
-  margin-top: 4px; */
-/* position: absolute;
-  bottom: 10px;
-  pointer-events: none;
-  transition: all 0.3s ease; */
-/* } */
-/* 
-.input-data input:focus ~ label {
-  transform: translateY(-28px);
-  color: #3498db;
-} */
 
 .btn-submit input {
   cursor: pointer;
